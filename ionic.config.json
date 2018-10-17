@@ -1,0 +1,7 @@
+{
+  "name": "TaNaTela",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

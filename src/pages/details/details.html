@@ -1,0 +1,19 @@
+<ion-header>
+
+</ion-header>
+
+<ion-content padding>
+    <ion-card *ngIf="filme">
+        <ion-item>
+          <h2>{{filme.original_title}}</h2>
+          <p>{{filme.release_date}}</p>
+        </ion-item>
+
+        <img [src]="'https://image.tmdb.org/t/p/w300/' + filme.backdrop_path">
+
+        <ion-card-content>
+            <p>{{filme.production_companies.name}}</p>
+          <p>{{filme.overview}}</p>
+        </ion-card-content>
+      </ion-card>
+</ion-content>
